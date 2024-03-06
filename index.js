@@ -12,6 +12,6 @@ function appendToResult(value) {
       let finalResult = eval(result);
       document.getElementById('result').value = finalResult;
     } catch (error) {
-      alert('Invalid input!');
+      alert('আবোল তাবোল টাইপ কেনো করো?');
     }
   }
